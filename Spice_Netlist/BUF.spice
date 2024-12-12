@@ -1,0 +1,17 @@
+* NGSPICE file created from NOR.ext - technology: sky130A
+
+.subckt BUFX1 gnd A Z vdd
+X0 a_n294_216# A Gnd Gnd sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.147 ps=1.54 w=0.42 l=0.15
+X1 Z a_n294_216# Vdd Vdd sky130_fd_pr__pfet_01v8 ad=0.3683 pd=3.12 as=0.4445 ps=3.24 w=1.27 l=0.15
+X2 Z a_n294_216# Gnd Gnd sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.147 ps=1.54 w=0.42 l=0.15
+X3 a_n294_216# A Vdd Vdd sky130_fd_pr__pfet_01v8 ad=0.3683 pd=3.12 as=0.4445 ps=3.24 w=1.27 l=0.15
+C0 A a_n294_216# 0.07097f
+C1 Z a_n294_216# 0.060637f
+C2 Vdd A 0.116746f
+C3 Z Vdd 0.117794f
+C4 Vdd a_n294_216# 0.300854f
+C5 Z Gnd 0.168793f
+C6 A Gnd 0.214202f
+C7 Vdd Gnd 0.999662f
+C8 a_n294_216# Gnd 0.332985f
+.ends

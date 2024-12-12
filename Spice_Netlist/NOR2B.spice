@@ -1,0 +1,38 @@
+.subckt nor A B vdd vss Y
+* NGSPICE file created from NOR.ext - technology: sky130A
+
+X0 a_n170_422# B vdd vdd sky130_fd_pr__pfet_01v8 ad=0.295215 pd=2.611438 as=0.38995 ps=3.233244 w=1.27 l=0.15
+X1 a_n294_216# A vss vss sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.147 ps=1.54 w=0.42 l=0.15
+X2 Y a_n294_216# a_n170_422# vdd sky130_fd_pr__pfet_01v8 ad=0.222131 pd=1.992312 as=0.295215 ps=2.611438 w=1.27 l=0.15
+X3 vss B Y vss sky130_fd_pr__nfet_01v8 ad=0.147 pd=1.54 as=0.0609 ps=0.71 w=0.42 l=0.15
+X4 a_n170_422# a_n294_216# Y vdd sky130_fd_pr__pfet_01v8 ad=0.295215 pd=2.611438 as=0.222131 ps=1.992312 w=1.27 l=0.15
+X5 vdd B a_n170_422# vdd sky130_fd_pr__pfet_01v8 ad=0.202651 pd=1.680268 as=0.153419 ps=1.357125 w=0.66 l=0.15
+X6 Y B vss vss sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.147 ps=1.54 w=0.42 l=0.15
+X7 Y a_n294_216# vss vss sky130_fd_pr__nfet_01v8 ad=0.0609 pd=0.71 as=0.147 ps=1.54 w=0.42 l=0.15
+X8 a_n294_216# A vdd vdd sky130_fd_pr__pfet_01v8 ad=0.3683 pd=3.12 as=0.38995 ps=3.233244 w=1.27 l=0.15
+X9 vdd B a_n170_422# vdd sky130_fd_pr__pfet_01v8 ad=0.38995 pd=3.233244 as=0.295215 ps=2.611438 w=1.27 l=0.15
+X10 vss a_n294_216# Y vss sky130_fd_pr__nfet_01v8 ad=0.147 pd=1.54 as=0.0609 ps=0.71 w=0.42 l=0.15
+X11 Y a_n294_216# a_n170_422# vdd sky130_fd_pr__pfet_01v8 ad=0.115438 pd=1.035375 as=0.153419 ps=1.357125 w=0.66 l=0.15
+C0 vdd a_n294_216# 0.390535f
+C1 B a_n170_422# 0.097495f
+C2 a_n170_422# a_n294_216# 0.186942f
+C3 A a_n294_216# 0.07097f
+C4 vdd Y 0.075827f
+C5 B a_n294_216# 0.016201f
+C6 a_n170_422# Y 0.494385f
+C7 a_n170_422# vdd 1.01649f
+C8 A Y 4.72e-19
+C9 vdd A 0.11508f
+C10 a_n170_422# A 0.003227f
+C11 B Y 0.05308f
+C12 B vdd 0.283403f
+C13 Y a_n294_216# 0.147628f
+C14 B vss 0.417836f
+C15 Y vss 0.643651f
+C16 A vss 0.214244f
+C17 vdd vss 2.12895f
+C18 a_n170_422# vss 0.186014f
+C19 a_n294_216# vss 0.555133f
+.ends
+
+

@@ -1,0 +1,80 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO NOR
+  CLASS BLOCK ;
+  FOREIGN NOR ;
+  ORIGIN 3.220 -0.740 ;
+  SIZE 7.470 BY 2.990 ;
+  PIN A
+    ANTENNAGATEAREA 0.253500 ;
+    PORT
+      LAYER li1 ;
+        RECT -2.000 1.630 -1.620 1.920 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.606000 ;
+    PORT
+      LAYER li1 ;
+        RECT 2.190 1.630 2.570 1.920 ;
+    END
+  END B
+  PIN Y
+    ANTENNADIFFAREA 0.803300 ;
+    PORT
+      LAYER li1 ;
+        RECT -0.390 1.080 -0.130 3.290 ;
+        RECT 1.040 1.180 1.300 2.980 ;
+        RECT 2.280 1.080 2.540 1.460 ;
+      LAYER met1 ;
+        RECT -0.410 1.170 2.550 1.410 ;
+    END
+  END Y
+  PIN vdd
+    ANTENNADIFFAREA 1.905900 ;
+    PORT
+      LAYER nwell ;
+        RECT -3.220 1.910 4.250 3.620 ;
+        RECT -3.220 1.900 -1.070 1.910 ;
+      LAYER li1 ;
+        RECT -2.860 2.170 -2.440 3.730 ;
+        RECT -1.970 2.170 -1.640 3.730 ;
+        RECT 1.830 2.170 2.090 3.730 ;
+        RECT 2.720 2.170 2.980 3.730 ;
+        RECT 3.710 2.460 3.970 3.730 ;
+      LAYER met1 ;
+        RECT -3.130 3.460 4.250 3.730 ;
+    END
+  END vdd
+  PIN vss
+    ANTENNADIFFAREA 0.911400 ;
+    PORT
+      LAYER li1 ;
+        RECT -2.860 0.740 -2.440 1.460 ;
+        RECT -1.970 0.740 -1.670 1.460 ;
+        RECT -0.910 0.740 -0.620 1.460 ;
+        RECT 0.040 0.740 0.380 1.460 ;
+        RECT 1.760 0.740 2.050 1.460 ;
+        RECT 2.710 0.740 3.050 1.460 ;
+      LAYER met1 ;
+        RECT -3.130 0.740 4.250 1.020 ;
+    END
+  END vss
+  OBS
+      LAYER li1 ;
+        RECT -1.450 1.920 -1.190 3.290 ;
+        RECT -0.840 2.170 -0.580 3.290 ;
+        RECT 0.050 2.170 0.310 3.290 ;
+        RECT 0.600 2.380 0.860 2.980 ;
+        RECT 2.280 2.170 2.540 3.290 ;
+        RECT 3.270 2.460 3.530 3.060 ;
+        RECT -1.450 1.630 -0.560 1.920 ;
+        RECT -1.450 1.080 -1.190 1.630 ;
+      LAYER met1 ;
+        RECT -0.850 2.170 3.540 3.290 ;
+  END
+END NOR
+END LIBRARY
+
